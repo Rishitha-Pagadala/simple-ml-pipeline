@@ -1,0 +1,26 @@
+# Git
+.git
+.gitignore
+
+# Docker
+Dockerfile  # The Dockerfile itself is not needed inside the image
+.dockerignore # This file is also not needed inside the image
+
+# Python virtual environment
+venv/
+.env
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# OS / IDE specific
+.vscode/
+.idea/
+*.DS_Store
+
+# Any local model output (if you ran tests locally and didn't clean up)
+# model/
+# model_output/
