@@ -10,6 +10,7 @@ MODEL_DIR = "/app/model" # This path will be inside the Docker container
 MODEL_PATH = os.path.join(MODEL_DIR, "iris_model.joblib")
 
 def train_model():
+    print("webhook trigger test!!")
     print("Loading data...")
     iris = load_iris()
     X, y = iris.data, iris.target
